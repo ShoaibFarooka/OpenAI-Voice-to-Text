@@ -1,0 +1,31 @@
+# Node.js dependencies:
+node_modules/
+
+# Environment secrets and local configuration:
+.env
+.env.*
+
+# Ignore local development directories:
+.venv/
+*.log
+*.pid
+*.pid.lock
+
+# Ignore Git and version control:
+.git/
+.gitignore
+
+# Ignore development tool configuration:
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build artifacts:
+/dist
+/build
+
+# Ignore other unnecessary files:
+.DS_Store
+Thumbs.db

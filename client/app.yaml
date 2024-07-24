@@ -1,0 +1,13 @@
+runtime: nodejs20 # specify the node.js version you are using
+env: standard
+service: testing
+
+
+handlers:
+- url: /.*
+  static_files: index.html
+  upload: index.html
+
+- url: /(.*\.(gif|png|jpg|css|js|svg|json))$
+  static_files: \1
+  upload: .*\.(gif|png|jpg|css|js|svg|json)$

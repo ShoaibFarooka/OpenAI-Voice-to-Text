@@ -1,0 +1,71 @@
+.header-logo {
+    width: 200px;
+    /* Aangepaste breedte */
+    height: auto;
+    margin-right: -10px;
+    /* Ruimte tussen het logo en de tekst */
+    vertical-align: middle;
+    /* Verticaal gecentreerd met de tekst */
+}
+
+
+/* Base styles for all control buttons */
+.control-btn {
+    font-size: 16px !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    margin: 0 5px !important;
+    transition: all 0.3s ease !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Individual styles for each button */
+#startButton {
+    background: linear-gradient(135deg, #0389ff, #027bce) !important;
+}
+
+#startButton:hover {
+    background: linear-gradient(135deg, #027bce, #0389ff) !important;
+}
+
+#pauseButton {
+    background: linear-gradient(135deg, #00113f, #000d35) !important;
+}
+
+#pauseButton:hover {
+    background: linear-gradient(135deg, #000d35, #00113f) !important;
+}
+
+#resumeButton {
+    background: linear-gradient(135deg, #00509e, #003f7d) !important;
+}
+
+#resumeButton:hover {
+    background: linear-gradient(135deg, #003f7d, #00509e) !important;
+}
+
+#stopButton {
+    background: linear-gradient(135deg, #002366, #001b53) !important;
+}
+
+#stopButton:hover {
+    background: linear-gradient(135deg, #001b53, #002366) !important;
+}
+
+/* add margin between icon and text in button */
+.control-btn i {
+    margin-right: 5px;
+    /* Adjust as needed */
+}
+
+.warning-message {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}

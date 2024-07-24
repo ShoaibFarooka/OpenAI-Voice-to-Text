@@ -1,0 +1,37 @@
+@keyframes bounce {
+
+    0%,
+    to {
+        transform: translate3d(0px, -4px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+
+    50% {
+        transform: translate3d(0px, 4px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+}
+
+.animate-bounce {
+    animation: bounce 1.5s infinite;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+@keyframes customFadeRight {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.custom-fade-right {
+    animation: customFadeRight 1s ease-in-out;
+}
+
+.hideImg {
+    opacity: 0;
+}

@@ -1,0 +1,55 @@
+/* Custom styles */
+.logo {
+  width: 110px;
+  height: auto;
+}
+
+.card {
+  border-radius: 15px !important;
+}
+
+.card-body {
+  padding: 2rem !important;
+}
+
+.btn-custom {
+  background-color: #00113f !important;
+  color: white !important;
+  border: 1px solid #ffffff !important;
+}
+
+.btn-custom:hover {
+  background-color: #002366 !important;
+  color: white !important;
+  border: 1px solid #ffffff !important;
+}
+
+/* Style for the info link */
+.info-link {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #808080;
+}
+
+.form-control {
+  background-color: #ffffff !important;
+  border: 1px solid #ccc !important;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 8px !important;
+  padding: 1rem !important;
+  font-size: 1rem !important;
+  color: #333 !important;
+  transition: all 0.3s ease !important;
+}
+
+.form-control:focus {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1) !important;
+  border-color: #0389ff !important;
+  outline: none !important;
+}
+
+.form-control::placeholder {
+  color: #aaa !important;
+  font-size: 0.9rem !important;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "go-digi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pankaj",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.6",
+    "@google-cloud/storage": "^7.7.0",
+    "axios": "^1.6.2",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "http-status": "^1.6.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^7.3.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "openai": "^4.20.1",
+    "uuid": "^9.0.1",
+    "validator": "^13.9.0"
+  }
+}

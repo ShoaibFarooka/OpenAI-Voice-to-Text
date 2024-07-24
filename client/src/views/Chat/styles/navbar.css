@@ -1,0 +1,58 @@
+/* Navbar Styles */
+.navbar {
+  background: linear-gradient(135deg, #ffffff, #f4f4f4);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: "Helvetica Neue", sans-serif;
+  padding: 0.8rem 2rem;
+  transition: all 0.3s ease;
+  margin-top: 0px !important;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #00113f;
+  /* Dark color to match the theme */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #777 !important;
+  padding: 0.6rem 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #0389ff !important;
+  /* Light blue to match the theme */
+}
+
+.logout-icon i {
+  font-size: 1.4rem;
+  color: #777;
+  padding-left: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.logout-icon i:hover {
+  color: #0389ff;
+  /* Light blue to match the theme */
+}
+
+.header-logo-navbar {
+  width: 70px;
+  height: auto;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.custom-bg-color {
+  background-color: #00113f !important;
+  z-index: 99;
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding-top: 40px !important;
+}
